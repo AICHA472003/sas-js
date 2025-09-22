@@ -1,0 +1,21 @@
+let number1=prompt("enter the first number : *");
+let operation=prompt("Enterthe operation symbole( + ; - ; * ; / ):")
+let number2=prompt("Enter the second number:");
+switch(operation)
+{
+case"+":
+alert(number1+ +number2);
+break;
+case"-":
+alert(number1-number2);
+break;
+case"/":
+if(number2|=0){
+    alert(number1/number2);
+break;
+}else{
+alert("error");
+break;
+}
+default:alert("Error:(try again");
+}
