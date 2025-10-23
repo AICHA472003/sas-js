@@ -1,9 +1,9 @@
 let fruits=["pomme","bannane","cerise"] ;
 console.log("Tableau initial:",fruits);
 
-fruit push("orange") ;
-console. log("Apres push:",fruit);
-fruit.pop();
+fruits.push("orange") ;
+console.log("Apres push:",fruits);
+fruits.pop();
 console.log("Après pop :", fruits);
 
 
