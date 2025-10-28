@@ -7,4 +7,4 @@ bouton.addEventListener("click", function() {
   titre.classList.toggle("highlight");
   image.setAttribute("src", "photo.png");
   image.setAttribute("alt", "Nouvelle image");
-});
+}); 
